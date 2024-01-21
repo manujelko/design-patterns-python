@@ -1,3 +1,10 @@
+"""Bridge pattern.
+
+The bridge pattern is a structural design pattern that decouples an abstraction
+from its implementation so that the two can vary independently. It's especially
+useful when both the abstraction and its implementation can have different hierarchies.
+"""
+
 from abc import ABC, abstractmethod
 
 

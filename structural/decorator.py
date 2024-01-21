@@ -1,3 +1,11 @@
+"""Decorator pattern.
+
+The decorator pattern is a structural design pattern tht allows behavior to be added
+to individual objects, either statically or dynamically, without affecting the
+behavior of other objects from the same class.
+"""
+
+
 from abc import ABC, abstractmethod
 
 

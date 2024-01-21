@@ -1,3 +1,11 @@
+"""Adapter pattern.
+
+The adapter pattern is a structural design pattern that allows objects with
+incompatible interfaces to work together. It involves a wrapper (the adapter) which
+makes one existing class (the adaptee) compatible with another interface (the target).
+"""
+
+
 class EuropeanSocket:
     def charge(self) -> str:
         return "Charging with European socket"

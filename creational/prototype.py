@@ -1,3 +1,13 @@
+"""Prototype pattern.
+
+The prototype pattern is used to create duplicate objects while keeping performance
+in mind. This pattern involves creating a new object by copying an existing object,
+known as the prototype. It's particularly useful when the construction of a new
+instance is more efficient by copying an existing instance than by creating a new
+one from scratch.
+"""
+
+
 import copy
 from typing import Any
 

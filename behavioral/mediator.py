@@ -63,7 +63,6 @@ class User(Colleague):
         print(f"{self.name} received a message from {sender_name}: '{message}'")
 
 
-
 if __name__ == "__main__":
     chat_room = ChatRoom()
     alice = User("Alice", chat_room)

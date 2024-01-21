@@ -1,3 +1,11 @@
+"""Singleton pattern.
+
+The singleton pattern ensures that a class has only one instance and provides a gobal
+point of access to it. This pattern is often used for managing shared resources,
+like database connections or configurations.
+"""
+
+
 class Singleton:
     _instance = None
 

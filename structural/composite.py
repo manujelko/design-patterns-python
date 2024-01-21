@@ -1,3 +1,11 @@
+"""Composite pattern.
+
+The composite pattern is a structural design pattern that allows you to compose
+objects into tree structures to represent part-whole hierarchies. This pattern lets
+clients treat individual objects and composition of object uniformly.
+"""
+
+
 from abc import ABC, abstractmethod
 
 

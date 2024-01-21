@@ -1,3 +1,12 @@
+"""Flyweight pattern.
+
+The flyweight pattern is a structural design pattern used to minimize memory usage
+or computation expenses by sharing as much as possible with similar objects. It's
+particularly useful when dealing with a large number of objects that have some shared
+state.
+"""
+
+
 class TreeType:
     def __init__(self, name: str, color: str, texture: str) -> None:
         self.name = name

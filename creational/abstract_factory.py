@@ -1,3 +1,11 @@
+"""Abstract Factory design pattern.
+
+The abstract factory design pattern provides an interface for creating families of
+related or dependent objects without specifying their concrete classes. It involves
+multiple factory methods, one of each type of object to be created.
+"""
+
+
 from abc import ABC, abstractmethod
 
 

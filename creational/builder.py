@@ -1,3 +1,11 @@
+"""Builder pattern.
+
+The builder pattern is a creational design pattern that lets you construct complex
+objects step by step. This pattern is useful when an object must be created with
+many possible configurations and is composed of numerous parts or components.
+"""
+
+
 from abc import ABC, abstractmethod
 
 

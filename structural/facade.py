@@ -1,3 +1,13 @@
+"""Facade pattern.
+
+The facade pattern is a structural design pattern that provides a simplified
+interface to a complex system of classes, library, or framework. This pattern is
+often used to provide a single entry point to a subsystem. By using the facade
+pattern, we can make a complex subsystem easier to use or reduce dependencies on
+external code.
+"""
+
+
 class Projector:
     def on(self) -> None:
         print("Projector turned on")
